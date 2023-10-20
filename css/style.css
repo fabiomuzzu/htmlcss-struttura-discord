@@ -6,7 +6,7 @@
 
 .main_container{
     width: 100%;
-    height: 2000px;
+    height: 3000px;
     background-color: green;
 }
 
@@ -24,7 +24,7 @@ header{
 
 /* css del menù */
 .row_menu{
-    width: 900px;
+    width: 1000px;
     height: 40px;
     border: 1px solid black;
     display: flex;
@@ -75,4 +75,67 @@ header{
 
 .black{
     background-color: #23272a;
+}
+
+/* css flex delle sezioni */
+.flex-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css square blu in sezioni uguali */
+.section {
+    width: 1000px;
+    height: 80%;
+    background-color: #1e90ff;
+    border: 1px dotted black;
+    display: flex;
+}
+
+/* css square rosa uguali in sezione 2, 3 e 4*/
+.pink_square {
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
+    border: 1px dotted black;
+}
+
+/* css square rosa sezione 1 con bg blu */
+.section_1{
+    width: 700px;
+    height: 80%;
+    background-color: #ee82ee;
+    border: 1px dotted black;
+}
+
+/* css flex sezione 2 e 4 */
+.flex_2, .flex_4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* css bg più alto in sezione 5 */
+#tallerbg{
+    height: 800px;
+}
+
+/* css square 5 */
+.section_5{
+    width: 1000px;
+    height: 90%;
+    background-color: green;
+    border: 1px dotted black;
+}
+
+/* css square sezione 6 */
+.section_6{
+    width: 1000px;
+    height: 95%;
+    background-color: #20b2aa;
+    border: 1px dotted black;
+}
+
+.sq_6{
+    
 }
